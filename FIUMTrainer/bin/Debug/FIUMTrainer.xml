@@ -6,6 +6,37 @@ FIUMTrainer
 </name>
 </assembly>
 <members>
+<member name="T:FIUMTrainer.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:FIUMTrainer.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:FIUMTrainer.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:FIUMTrainer.My.Resources.Resources.definidas">
+<summary>
+  Busca un recurso adaptado de tipo System.Byte[].
+</summary>
+</member>
+<member name="P:FIUMTrainer.My.Resources.Resources.impropias">
+<summary>
+  Busca un recurso adaptado de tipo System.Byte[].
+</summary>
+</member>
+<member name="P:FIUMTrainer.My.Resources.Resources.logoum">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="T:FIUMTrainer.My.MyWpfExtension">
  <summary>
  Módulo utilizado para definir las propiedades disponibles en el espacio de nombres My de WPF
@@ -37,27 +68,6 @@ FIUMTrainer
  <summary>
  Devuelve la colección de Windows definida en el proyecto.
  </summary>
-</member>
-<member name="T:FIUMTrainer.My.Resources.Resources">
-<summary>
-  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
-</summary>
-</member>
-<member name="P:FIUMTrainer.My.Resources.Resources.ResourceManager">
-<summary>
-  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
-</summary>
-</member>
-<member name="P:FIUMTrainer.My.Resources.Resources.Culture">
-<summary>
-  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
-  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
-</summary>
-</member>
-<member name="P:FIUMTrainer.My.Resources.Resources.logoum">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
 </member>
 <member name="T:FIUMTrainer.am1">
 <summary>

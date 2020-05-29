@@ -63,9 +63,19 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Byte[].
         '''</summary>
-        Friend ReadOnly Property _2__Integración_parte_1_Primitivas() As Byte()
+        Friend ReadOnly Property definidas() As Byte()
             Get
-                Dim obj As Object = ResourceManager.GetObject("_2__Integración_parte_1_Primitivas", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("definidas", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Byte[].
+        '''</summary>
+        Friend ReadOnly Property impropias() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("impropias", resourceCulture)
                 Return CType(obj,Byte())
             End Get
         End Property

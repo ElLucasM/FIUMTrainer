@@ -12,9 +12,8 @@
 			<ColumnDefinition/>
 			<ColumnDefinition Width="4*"/>
 		</Grid.ColumnDefinitions>
-		<DocumentViewer x:Name="documentViewer" Margin="0" Grid.Column="1"/>
 		<TreeView x:Name="treeView">
-			<TreeViewItem Header="Integrales" Width="207" FontSize="20">
+			<TreeViewItem x:Name="integrales" Header="Integrales" FontSize="20">
 				<TreeViewItem Header="Indefinidas" HorizontalAlignment="Left" IsExpanded="True">
 					<TreeViewItem Header="Teoremas" HorizontalAlignment="Left"/>
 					<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
@@ -36,7 +35,7 @@
 				<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
 				<TreeViewItem Header="Proposición" HorizontalAlignment="Left"/>
 			</TreeViewItem>
-			<TreeViewItem Header="Ec. Diferenciales" FontSize="20" IsExpanded="True">
+			<TreeViewItem Header="Ec. Diferenciales" FontSize="20">
 				<TreeViewItem Header="Primer Orden" HorizontalAlignment="Left" IsExpanded="True">
 					<TreeViewItem Header="Teoremas" HorizontalAlignment="Left"/>
 					<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
@@ -48,12 +47,13 @@
 					<TreeViewItem Header="Proposiciones" HorizontalAlignment="Left"/>
 				</TreeViewItem>
 			</TreeViewItem>
-			<TreeViewItem Header="Series" Width="209" FontSize="20" IsExpanded="True">
+			<TreeViewItem Header="Series" FontSize="20">
 				<TreeViewItem Header="Teoremas" HorizontalAlignment="Left"/>
 				<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
 				<TreeViewItem Header="Proposiciones" HorizontalAlignment="Left"/>
 			</TreeViewItem>
 		</TreeView>
+		<WebBrowser x:Name="webBrowser1" Grid.Column="1" Margin="10"/>
 
 	</Grid>
 </Page>
