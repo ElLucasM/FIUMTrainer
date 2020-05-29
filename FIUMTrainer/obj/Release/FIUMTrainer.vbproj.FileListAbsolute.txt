@@ -1,0 +1,15 @@
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\bin\Release\FIUMTrainer.exe.config
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\bin\Release\FIUMTrainer.exe
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\bin\Release\FIUMTrainer.pdb
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\bin\Release\FIUMTrainer.xml
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\MainWindow.g.vb
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\Application.g.vb
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\FIUMTrainer_MarkupCompile.cache
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\FIUMTrainer_MarkupCompile.lref
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\MainWindow.baml
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\FIUMTrainer.g.resources
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\FIUMTrainer.Resources.resources
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\FIUMTrainer.vbproj.GenerateResource.cache
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\FIUMTrainer.exe
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\FIUMTrainer.xml
+C:\Users\Lucas J. Melogno\source\repos\FIUMTrainer\FIUMTrainer\obj\Release\FIUMTrainer.pdb

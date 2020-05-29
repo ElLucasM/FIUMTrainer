@@ -1,0 +1,59 @@
+﻿<Page x:Class="teoricoam1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FIUMTrainer"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="1064"
+      Title="teoricoam1">
+	<Grid Background="White" UseLayoutRounding="False">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition/>
+			<ColumnDefinition Width="4*"/>
+		</Grid.ColumnDefinitions>
+		<DocumentViewer x:Name="documentViewer" Margin="0" Grid.Column="1"/>
+		<TreeView x:Name="treeView">
+			<TreeViewItem Header="Integrales" Width="207" FontSize="20">
+				<TreeViewItem Header="Indefinidas" HorizontalAlignment="Left" IsExpanded="True">
+					<TreeViewItem Header="Teoremas" HorizontalAlignment="Left"/>
+					<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
+					<TreeViewItem Header="Proposiciones" HorizontalAlignment="Left"/>
+				</TreeViewItem>
+				<TreeViewItem Header="Definidas" HorizontalAlignment="Left" IsExpanded="True">
+					<TreeViewItem Header="Teoremas" HorizontalAlignment="Left"/>
+					<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
+					<TreeViewItem Header="Proposiciones" HorizontalAlignment="Left"/>
+				</TreeViewItem>
+				<TreeViewItem Header="Impropias" HorizontalAlignment="Left" IsExpanded="True">
+					<TreeViewItem Header="Teoremas" HorizontalAlignment="Left"/>
+					<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
+					<TreeViewItem Header="Proposiciones" HorizontalAlignment="Left"/>
+				</TreeViewItem>
+			</TreeViewItem>
+			<TreeViewItem Header="Número Complejo" FontSize="20">
+				<TreeViewItem Header="Teoremas" HorizontalAlignment="Left"/>
+				<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
+				<TreeViewItem Header="Proposición" HorizontalAlignment="Left"/>
+			</TreeViewItem>
+			<TreeViewItem Header="Ec. Diferenciales" FontSize="20" IsExpanded="True">
+				<TreeViewItem Header="Primer Orden" HorizontalAlignment="Left" IsExpanded="True">
+					<TreeViewItem Header="Teoremas" HorizontalAlignment="Left"/>
+					<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
+					<TreeViewItem Header="Proposiciones" HorizontalAlignment="Left"/>
+				</TreeViewItem>
+				<TreeViewItem Header="Orden n" HorizontalAlignment="Left" IsExpanded="True">
+					<TreeViewItem Header="Teoremas" HorizontalAlignment="Left"/>
+					<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
+					<TreeViewItem Header="Proposiciones" HorizontalAlignment="Left"/>
+				</TreeViewItem>
+			</TreeViewItem>
+			<TreeViewItem Header="Series" Width="209" FontSize="20" IsExpanded="True">
+				<TreeViewItem Header="Teoremas" HorizontalAlignment="Left"/>
+				<TreeViewItem Header="Observaciones" HorizontalAlignment="Left"/>
+				<TreeViewItem Header="Proposiciones" HorizontalAlignment="Left"/>
+			</TreeViewItem>
+		</TreeView>
+
+	</Grid>
+</Page>
